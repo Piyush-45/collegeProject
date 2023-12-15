@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main 
+{@apply flex w-10/12 flex-wrap mx-auto gap-y-40 
+}
+.card_bg{
+    @apply  h-96 w-96 mt-36 m-4 relative overflow-hidden transform hover:translate-y-0
+}
+.card_details {
+    @apply flex  bg-Button p-2 text-center 
+}
+.p1{
+    @apply w-72  text-xl
+}
+.overview{
+    @apply bg-white p-8 absolute max-h-full overflow-auto left-0 bottom-0  right-0  translate-y-100 duration-400 hover:translate-y-0  
+}
+.overview h3{
+@apply mt-0
+}
